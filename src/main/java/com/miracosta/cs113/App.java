@@ -4,7 +4,7 @@
 package com.miracosta.cs113;
 
 /**
- * @author erich
+ * @author Erich
  *
  */
 public class App {
@@ -16,6 +16,7 @@ public class App {
 		// TODO Auto-generated method stub
 
 		//System.out.println("main");
+		
 	}
 
 }

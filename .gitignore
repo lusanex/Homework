@@ -1,0 +1,8 @@
+
+#compiled class file
+target/*
+#log file
+*.log
+
+*.jar
+*.war
