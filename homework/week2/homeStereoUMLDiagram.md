@@ -1,6 +1,6 @@
-#Home Stereo UML Modeling
+# Home Stereo UML Modeling
 
-##Association vs Aggregation vs Composition
+## Association vs Aggregation vs Composition
 
 Associations represent static relationships between classes. It can
 be represented by a line between theses classes with an arrow indicating
