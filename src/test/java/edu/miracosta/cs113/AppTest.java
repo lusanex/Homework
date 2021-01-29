@@ -1,4 +1,4 @@
-package com.miracosta.cs113;
+package edu.miracosta.cs113;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

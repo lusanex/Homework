@@ -1,4 +1,4 @@
-package com.miracosta.cs113.lab1;
+package edu.miracosta.cs113.lab1;
 
 import static org.junit.Assert.*;
 
@@ -24,6 +24,8 @@ public class Lab1JUnitTest {
 		System.out.println("isNumberMultipleOfNs(15,3,5,2)");
 		assertEquals(multiple.isNumberMultipleOfNs(15, 3,5,2), false);
 		
+		System.out.println("isNumberMultipleofNs(15,1)");
+		assertEquals(multiple.isNumberMultipleOfNs(15,1),true);
 	}
 
 	public void runTest(int num){

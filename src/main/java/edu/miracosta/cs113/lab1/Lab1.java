@@ -1,7 +1,8 @@
 /**
+ * CS113
  * 
  */
-package com.miracosta.cs113.lab1;
+package edu.miracosta.cs113.lab1;
 
 /**
  * @author erich
