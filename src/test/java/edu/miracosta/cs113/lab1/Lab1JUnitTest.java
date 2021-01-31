@@ -7,6 +7,7 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.function.ThrowingRunnable;
 
 public class Lab1JUnitTest {
 
@@ -23,9 +24,31 @@ public class Lab1JUnitTest {
 		assertEquals(multiple.isNumberMultipleOfNs(15,3,5), true);
 		System.out.println("isNumberMultipleOfNs(15,3,5,2)");
 		assertEquals(multiple.isNumberMultipleOfNs(15, 3,5,2), false);
-		
 		System.out.println("isNumberMultipleofNs(15,1)");
 		assertEquals(multiple.isNumberMultipleOfNs(15,1),true);
+		System.out.println("AssertingThrows: isNumberMultipleOfNs(0,5,10)");
+		Exception numberLessOrEqualToZero = assertThrows(IllegalArgumentException.class, new ThrowingRunnable() {
+			
+			@Override
+			public void run() throws Throwable {
+				multiple.isNumberMultipleOfNs(0, 5,19);
+
+				
+			}
+		});
+		String expectedMessage = "Error: number <= 0";
+		String actualMessage = numberLessOrEqualToZero.getMessage();
+		assertTrue(actualMessage.contains(expectedMessage));
+		
+		Exception notValidMultiple = assertThrows(IllegalArgumentException.class, () -> {
+			multiple.isNumberMultipleOfNs(345, -1,0);
+			
+		});
+		expectedMessage = "Error miltiples[]";
+		actualMessage = notValidMultiple.getMessage();
+		assertTrue(actualMessage.contains(expectedMessage));
+		
+		
 	}
 
 	public void runTest(int num){

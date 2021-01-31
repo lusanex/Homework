@@ -19,7 +19,7 @@ cases of association.
 Aggregation implies a relationship where the contained class can exist independently of the parent.
 In other words the aggregation link usually is used to stress the point that the parent
 class instance is not the exclusive container of the class child instance, the child class instance has another container/s.
-In or modeling there is not aggregation relationship becuase if the class Home stereo is deleted all the classes are deleted as a result. No other container ( class ) uses the other contained classes.
+This modeling has not aggregation relationship becuase if the class Home stereo is deleted all the classes are deleted as a result. No other container ( class ) uses the other contained classes.
 
 Composition implies a relationship where a relationship between two classes cannot exit independently from each other. 
 Compisite has the next characteristics:
@@ -32,6 +32,6 @@ Home stereo. Whitout an amplifier the other classes are useless. (TV source, Spe
 
 Generalization is another name of inherence is a mecanism for combining similar classes of object in a single, more general class.
 Example the speaker class can be of two different types a wireless and a wired speaker.
-<br>
+<br/>
  <img src="./img/UMLHomeStereo.png" alt="UML HomeStero"/>
 
