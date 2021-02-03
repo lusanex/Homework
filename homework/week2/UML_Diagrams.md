@@ -7,7 +7,7 @@ be represented by a line between theses classes with an arrow indicating
 the navigation direction. It can be adorned with multiplicity signs.
 The example indicates that speaker should have at least one or more buttons.
 
-A single speaker can be associated with multiple buttons( actions to perform over speaker class)
+A single speaker can be associated with multiple buttons( buttons perform some actions over speaker class)
 
 <br>
 
