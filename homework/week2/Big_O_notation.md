@@ -2,19 +2,19 @@
 # Big-O notation 
 
 
-1  **O(0)**
-2  **O(5)**
-3  **O(2/N)**          //   { n | n > 0 } the set of all natural number such as n > 0 
-4  **O(log N)**
-5  **O(sqrt(N))**      // sqrt(N) = N ^ 1/2 
-6  **O(N)**            
-7  **O(N^1.5)**
-8  **O(N log N)**
-9  **O(N^2)**
-10 **O(NM)**           // { M | M > N } the set of all natural numbers such as M > N
-11 **O(N^4)**
-12 **O(2^N)**
-13 **O(INFINITY)**
+1.  **O(0)**
+2.  **O(5)**
+3.  **O(2/N)**          //   { n | n > 0 } the set of all natural number such as n > 0 
+4.  **O(log N)**
+5.  **O(sqrt(N))**      // sqrt(N) = N ^ 1/2 
+6.  **O(N)**            
+7.  **O(N^1.5)**
+8.  **O(N log N)**
+9.  **O(N^2)**
+10. **O(NM)**           // { M | M > N } the set of all natural numbers such as M > N
+11. **O(N^4)**
+12. **O(2^N)**
+13. **O(INFINITY)**
 
 
 
