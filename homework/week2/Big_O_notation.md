@@ -20,7 +20,9 @@
 
 Total number of steps is given by n so
 T = { 1 + 1 + 1 ... n } N times
-T(n) = O(N)
+T(n) = 
+<a href="https://www.codecogs.com/eqnedit.php?latex=t(n)&space;=&space;O(n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t(n)&space;=&space;O(n)" title="t(n) = O(n)" /></a>
+
 ```
 sum = 0;
 for ( int = 0 ; i < n ; i++ ) {   // N times

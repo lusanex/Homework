@@ -3,7 +3,6 @@
  * 
  */
 package edu.miracosta.cs113.lab2;
-import java.math.*;
 
 
 /**
@@ -12,7 +11,6 @@ import java.math.*;
  */
 public class Lab2 {
 
-	private int number ;
 	/**
 	 * Constructor 
 	 * Allows initialization
