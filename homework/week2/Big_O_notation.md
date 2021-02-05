@@ -4,17 +4,35 @@
 
 1.  **O(0)**
 2.  **O(5)**
-3.  **O(2/N)**          //   { n | n > 0 } the set of all natural number such as n > 0 
+3.  **O(2/N)**          //   { n | n > 0 } the set of all natural numbers such as n > 0 
 4.  **O(log N)**
 5.  **O(sqrt(N))**      // sqrt(N) = N ^ 1/2 
 6.  **O(N)**            
 7.  **O(N^1.5)**
 8.  **O(N log N)**
 9.  **O(N^2)**
-10. **O(NM)**          
+10. **O(NM)**       //      { n | m > n  } the set of all natural numbers such as m > n   
 11. **O(N^4)**
 12. **O(2^N)**
 13. **O(INFINITY)**
+
+O(f(n)) | f(50) | f(100) | f(100) / f(50)
+--------|-------|--------|--------------
+O(0)    |   0   |    0   |   0 
+O(5)    |   5   |    5   |  5 
+O(2/n)  |   0.04|    0.02   |  1/2
+O(log n)    |   5.64   |   6.64    |  1.18 
+O(sqrt(n)) | 7.07 | 10 | 1.41 
+O(n) | 50 | 100 | 2
+O(n^1.5) | 353.55 | 1000 | 2.82
+O(n log n) | 282 | 664 | 2.35
+O(n^2) | 2500 | 10000 | 4 
+O(nm) m = 60 | 3000 | 60000 | 20
+O(n^4) | 6.25 x 10^6 | 1 x 10 ^ 9| 1.6x10^14
+O(2^n)| 1.125 x 10 ^15 | 1.267  x 10 ^30 | 1.12 x 10^45
+O(INFINITY) | --- | --- | --- 
+
+
 
 ## Big-O Time complexity
 
