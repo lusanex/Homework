@@ -67,7 +67,7 @@ for ( i = 0 ; i < n ; i++ ){                  //  N times
 
 * Two loops the first loop is repeated n times
 the inner loop grows by 1 following the natural number
-series pattern { 1, 2, 3 ... ...n }  to get the total number
+series pattern { 1, 2, 3 ... ...n }  to get the total numbers
 we use the next formula  ![alt n (n + 0) / 2](./img/formula.gif)\
 To get the total steps we multiplie the outer loop by the inner loop:\
 \
