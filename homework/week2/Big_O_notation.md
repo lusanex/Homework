@@ -67,15 +67,34 @@ for ( i = 0 ; i < n ; i++ ){                  //  N times
 
 * Two loops the first loop is repeated n times
 the inner loop grows by 1 following the natural number
-series pattern { 1, 2, 3 ... ...n }  to get the total numbers
-we use the next formula  ![alt n (n + 0) / 2](./img/formula.gif)\
-To get the total steps we multiplie the outer loop by the inner loop:\
+series pattern { 1, 2, 3 ... ...n }  to get the total times
+the inner loop is executed 
+we use the next formula  ![alt n (n + 1) / 2](./img/formula.gif)\
+The next table shows how many times the inner loop is executed when n = 6
 \
+**i = values**\
+**j = times second loop is executed**\
+**n = n times loop will executed**  
+
+
+i < n    |  0 | 1|2|3|4|5|6
+---------|----|--|-|-|-|-|-
+j | none | 1|2|3|4|5|6
+
+
+From the table we  know that for n times the total steps from the inner loop
+will be 
+
 ![alt formula](./img/secondex.gif)
+
+
+
+
 ```java
 int sum = 0;
 for ( i = 0 ; i < n ; i++ ){                  //  N times
-	for ( int j = 0 ; j < i ; j++ ){      //  { 1 + 2 + 3 ... ... n } Sum of the first n number of the series 
+	for ( int j = 0 ; j < i ; j++ ){      //  { 1 + 2 + 3 ... ... n } Sum of the first 
+					      //  n number of the series 
 	 	sum++;                        //  n ( n+ 1) /2
 	}
 }
