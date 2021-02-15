@@ -1,2 +1,101 @@
-CS113 Labs 
+# CS113 Labs 
+
+## Structure of the directory
+
+├── homework
+│   ├── week2
+│   │   ├── Big_O_notation.md
+│   │   ├── img
+│   │   │   ├── bowl_of_oranges.png
+│   │   │   ├── Coffee_sequence_diagram.png
+│   │   │   ├── firstex.gif
+│   │   │   ├── formula.gif
+│   │   │   ├── secondex.gif
+│   │   │   ├── speakerAssociation.png
+│   │   │   ├── thirdex.gif
+│   │   │   ├── UMLHomeStereo.png
+│   │   │   └── uml.svg
+│   │   ├── sequence_Diagram.md
+│   │   └── UML_Diagrams.md
+│   └── week2.zip
+├── pom.xml
+├── README
+├── src
+│   ├── main
+│   │   └── java
+│   │       └── edu
+│   │           └── miracosta
+│   │               └── cs113
+│   │                   ├── App.java
+│   │                   ├── lab1
+│   │                   │   └── Lab1.java
+│   │                   ├── lab2
+│   │                   │   └── Lab2.java
+│   │                   ├── lab3
+│   │                   │   ├── CompareExpression.java
+│   │                   │   └── self-check.md
+│   │                   └── lab3.zip
+│   └── test
+│       └── java
+│           └── edu
+│               └── miracosta
+│                   └── cs113
+│                       ├── AppTest.java
+│                       ├── lab1
+│                       │   └── Lab1JUnitTest.java
+│                       ├── lab2
+│                       │   └── Lab2JUnitTest.java
+│                       └── lab3
+│                           └── CompareExpressionTest.java
+└── target
+    ├── classes
+    │   ├── edu
+    │   │   └── miracosta
+    │   │       └── cs113
+    │   │           ├── App.class
+    │   │           ├── lab1
+    │   │           │   └── Lab1.class
+    │   │           ├── lab2
+    │   │           │   └── Lab2.class
+    │   │           └── lab3
+    │   │               ├── CompareExpression$ExpressionY.class
+    │   │               ├── CompareExpression.class
+    │   │               └── self-check.md
+    │   └── META-INF
+    │       ├── MANIFEST.MF
+    │       └── maven
+    │           └── com.miracosta.cs113
+    │               └── Labs
+    │                   ├── pom.properties
+    │                   └── pom.xml
+    ├── generated-sources
+    │   └── annotations
+    ├── generated-test-sources
+    │   └── test-annotations
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               ├── createdFiles.lst
+    │               └── inputFiles.lst
+    └── test-classes
+        └── edu
+            └── miracosta
+                └── cs113
+                    ├── AppTest.class
+                    ├── lab1
+                    │   ├── Lab1JUnitTest$1.class
+                    │   └── Lab1JUnitTest.class
+                    ├── lab2
+                    │   └── Lab2JUnitTest.class
+                    └── lab3
+                        └── CompareExpressionTest.class
+
+49 directories, 43 files
 N: Erich Gutierrez Chavez
+
+
