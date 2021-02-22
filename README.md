@@ -6,6 +6,7 @@
 ├── homework
 │   └── week2
 │       └── img
+|       |...
 ├── src
 │   ├── main
 │   │   └── java
@@ -15,6 +16,7 @@
 │   │                   ├── lab1
 │   │                   ├── lab2
 │   │                   └── lab3
+|   |                   |__ ...
 │   └── test
 │       └── java
 │           └── edu
@@ -23,37 +25,7 @@
 │                       ├── lab1
 │                       ├── lab2
 │                       └── lab3
-└── target
-    ├── classes
-    │   ├── edu
-    │   │   └── miracosta
-    │   │       └── cs113
-    │   │           ├── lab1
-    │   │           ├── lab2
-    │   │           └── lab3
-    │   └── META-INF
-    │       └── maven
-    │           └── com.miracosta.cs113
-    │               └── Labs
-    ├── generated-sources
-    │   └── annotations
-    ├── generated-test-sources
-    │   └── test-annotations
-    ├── maven-status
-    │   └── maven-compiler-plugin
-    │       ├── compile
-    │       │   └── default-compile
-    │       └── testCompile
-    │           └── default-testCompile
-    └── test-classes
-        └── edu
-            └── miracosta
-                └── cs113
-                    ├── lab1
-                    ├── lab2
-                    └── lab3
-
-49 directories
+|                       |__ ...
 ```
 N: Erich Gutierrez Chavez
 
