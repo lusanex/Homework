@@ -1,9 +1,13 @@
 
 #compiled class file
+*/target/*
 target/*
+homework/homework-DS/cs113/target/*
 #log file
 *.log
 
 *.jar
 *.war
 *.zip
+*.class
+

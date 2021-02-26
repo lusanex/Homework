@@ -1,0 +1,30 @@
+title DSPolynomial Sequence Diagram 
+actor user
+participant Repl
+participant doCommand
+participant Polynomial
+
+user->Repl:runs program Repl
+box over Repl:init readline & \n doCommand()
+Repl->doCommand:                     inits      
+doCommand-->user:reads input
+user ->doCommand: inserts input
+box over doCommand:validates &\nnormalize command
+box over doCommand:edit\ndelete\nhelp\nclear\nadd
+alt if edit polynomial & valid polynomial
+doCommand->Polynomial:               valid Polynomial        
+Polynomial-->doCommand: OK
+doCommand-->user:prints polynomial
+else not valid polynomial
+Polynomial->doCommand:not valid Polynomial
+
+end
+
+doCommand->user:prints Illegal polynomial
+
+user->doCommand:show \--first-Polynomial
+doCommand->Polynomial:calls toString()
+Polynomial->doCommand:OK
+doCommand-->user:prints first polynomial
+user->doCommand:exit
+doCommand-->user:OK ends program
