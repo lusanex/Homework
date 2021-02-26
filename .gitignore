@@ -3,6 +3,7 @@
 */target/*
 target/*
 homework/homework-DS/cs113/target/*
+*.ucls
 #log file
 *.log
 

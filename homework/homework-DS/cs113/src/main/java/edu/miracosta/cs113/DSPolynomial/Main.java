@@ -1,11 +1,3 @@
-/*
- * Copyright (c) 2002-2020, the original author or authors.
- *
- * This software is distributable under the BSD license. See the terms of the
- * BSD license in the documentation provided with this software.
- *
- * https://opensource.org/licenses/BSD-3-Clause
- */
 package edu.miracosta.cs113.DSPolynomial;
 
 import java.io.IOException;
@@ -15,10 +7,6 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
 import java.util.*;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
-import java.util.function.Consumer;
-import java.io.File;
 import java.util.regex.*;
 
 import org.jline.builtins.*;
@@ -30,13 +18,9 @@ import org.jline.reader.*;
 import org.jline.reader.LineReader.Option;
 import org.jline.reader.impl.DefaultParser;
 import org.jline.reader.impl.DefaultParser.Bracket;
-import org.jline.reader.impl.LineReaderImpl;
-import org.jline.reader.impl.completer.ArgumentCompleter;
-import org.jline.reader.impl.completer.StringsCompleter;
 import org.jline.terminal.*;
 import org.jline.utils.*;
 import org.jline.utils.InfoCmp.Capability;
-import org.jline.reader.impl.BufferImpl;
 
 import static java.time.temporal.ChronoField.HOUR_OF_DAY;
 import static java.time.temporal.ChronoField.MINUTE_OF_HOUR;

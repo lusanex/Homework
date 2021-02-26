@@ -1,4 +1,4 @@
-# CS113 Labs 
+# CS113 Labs and homeworks
 ## Structure of the directory
 
 ```
