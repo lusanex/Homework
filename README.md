@@ -1,13 +1,12 @@
 # CS113 Labs 
 ## Structure of the directory
 
-```bash  
+```
 .
 ├── homework
+│   ├── homework-DS   // <- Data structures homeworks packages DSPolynomial, DSClue... etc
 │   └── week2
-│       └── img
-|       |...
-├── src
+├── src              //  <- Labs and tests
 │   ├── main
 │   │   └── java
 │   │       └── edu
@@ -15,8 +14,8 @@
 │   │               └── cs113
 │   │                   ├── lab1
 │   │                   ├── lab2
-│   │                   └── lab3
-|   |                   |__ ...
+│   │                   ├── lab3
+│   │                   └── ...
 │   └── test
 │       └── java
 │           └── edu
@@ -24,8 +23,8 @@
 │                   └── cs113
 │                       ├── lab1
 │                       ├── lab2
-│                       └── lab3
-|                       |__ ...
+│                       ├── lab3
+│                       └── ...
 ```
 N: Erich Gutierrez Chavez
 
