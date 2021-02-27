@@ -239,45 +239,30 @@ public class Main
 	    }
 
     }
-
-    private static List<String> parsePolyExpression(List<Tuples> tuples
+  private static List<String> parsePolyExpression(List<Tuples> tuples
 		    ,String polyExpression){
 	    List<String> termList = new ArrayList<>();
 	    int size = tuples.size();
-	    int i = 0;
+	    
 	    if ( size == 0 ){
 		    return termList;
 	    }
 
-	    if ( tuples.get(0).start == 0 ) {
-		    termList.add(polyExpression.substring(0,tuples.get(1).end-1));
-		    i = 1;
-		    size = size -1;
-	    	    for (; i < size ; i++ ){
-		    	termList.add(polyExpression
-					.substring(tuples.get(i).start
-						,tuples.get(i+1).end-1));
-	    	    }
-	    }
-	    else {
-		    termList.add(polyExpression.substring(0,tuples.get(0).start));
-		    for ( ; i < size;i++ ){
-			    if ( i == size -1 ){
-				    termList.add(polyExpression
-						    .substring(tuples.get(i).start
-							   ,polyExpression.length()));
-				    break;
-			    }
-			    termList.add(polyExpression.substring(tuples.get(i).start
-						    ,tuples.get(i+1).end-1));
-		    }
-
-	    }
+	
+		for (int i = 0; i < size ; i++ ){
+			if ( i >= size-1) {
+				termList.add(polyExpression.substring(tuples.get(i).start,polyExpression.length()));
+				break;
+			}
+		
+			termList.add(polyExpression
+				.substring(tuples.get(i).start
+				,tuples.get(i+1).start));
+		  }
+	   
 	    return termList;
     }
-
-
-
+ 
     private static class Tuples{
 	    public int start;
 	    public int end;
