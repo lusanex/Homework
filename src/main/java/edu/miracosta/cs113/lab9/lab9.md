@@ -2,7 +2,7 @@
 
 a) A,B,D,E,F,C
 
-b) lay,house,cow,jackrat,milked,that
+b) lay,house,cow,jack,rat,milked,that
 
 
 ## Inorder
