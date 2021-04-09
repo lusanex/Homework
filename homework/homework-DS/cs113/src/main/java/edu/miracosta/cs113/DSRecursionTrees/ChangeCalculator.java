@@ -35,7 +35,7 @@ public class ChangeCalculator
     }
     public static int calculateChange(int cents, int count, Calculator coin)
     {
-        //If out of cents, then save the coin combination or remove if it exist.
+	//Base case
         if(cents == 0)
         {
             if(listToAddToCoins.contains(coin))
@@ -48,7 +48,8 @@ public class ChangeCalculator
                 return 1;
             }
         }
-        //Branch into 4.
+        
+	    //Possible combinations.
 
             int numberToReturn = 0;
             if(cents >=1)
